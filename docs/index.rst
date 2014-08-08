@@ -16,6 +16,9 @@ An important note is that the kase hierarchy, as defined in this document, is a 
 .. contents:: Contents
 	:depth: 3
 	:backlinks: top
+	
+	
+Testing.	
 
 Overview
 ========
@@ -50,7 +53,7 @@ The child parent relationship, which is used for:
 
 A cross reference system, that has specific semantics to create a well defined ``target reference`` relationship.
 
-The type’s classifiers groups, as mentioned above, are well known kase types which specify that child elements must be of a given type. For each type classifier we have a specific child naming rule, that consists of a prefix ending with an underscore and an integer suffix that represents an ordered index starting at 0 until the child count minus 1.
+The typeâ€™s classifiers groups, as mentioned above, are well known kase types which specify that child elements must be of a given type. For each type classifier we have a specific child naming rule, that consists of a prefix ending with an underscore and an integer suffix that represents an ordered index starting at 0 until the child count minus 1.
 
 E.g.: All child of the classifier group **GridParts** have a **GridPart_** prefix and an indexed integer suffix.
  
